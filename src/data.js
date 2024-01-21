@@ -43,7 +43,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "Adriano's exceptional skills make him a top choice for leading roles in the tech industry. Adriano is undoubtedly an asset to any team, bringing a unique blend of skills, passion, and innovation. I confidently endorse him for any role he seeks in the tech industry.",
     image: "https://avatars.githubusercontent.com/u/8085864?v=4",//FOTO TESTEMUNIAL
     name: "Mike G. Camara",
     company: "Software Engineer",
