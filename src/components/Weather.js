@@ -16,7 +16,7 @@ export default function Weather() {
   };
 
   const fetchWeather = async (cityName) => {
-    const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY; 
+    const API_KEY = "2eae46d3258fb967d095424c36f4093f"; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${API_KEY}`;
 
     try {
@@ -34,7 +34,7 @@ export default function Weather() {
   };
 
   const fetchWeatherByCoords = async (latitude, longitude) => {
-    const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
+    const API_KEY = "2eae46d3258fb967d095424c36f4093f";
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`;
   
     try {
